@@ -1,0 +1,147 @@
+html, body{
+  background-color: #282c34;
+  color:white;
+  height: 100%; /*mandatory*/
+  font-family: Roboto;
+}
+
+#root{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /*mandatory*/ 
+}
+
+.buscador{
+  border-radius: 10px;
+  background-color:#2d3341;
+  height: 25vh;
+  width: 50vw;
+  padding:  40px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.title-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 48px;
+}
+
+input{
+  align-self: stretch;
+  height: 35px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #282c34;
+  outline: black;
+  color: white;
+}
+.container-buttons{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  height: 60px;
+}
+button{
+  box-sizing: border-box;
+	appearance: none;
+	border-radius: 0.6em;
+	cursor: pointer;
+	text-align: center;
+	font-size: 12px;
+	line-height: 1;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding: 1.2em 2.8em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	transition: all 0.5s ease-in;
+  }	:hover,	:active,	:focus {
+		color: white;
+		outline: 0;
+		transition: all 0.5s ease-in;
+  }
+  
+.with-border-green {
+	background: rgba(0, 102, 76, 0.2);
+	color: #16dba3;
+	border: 2px solid #16dba3;
+}:focus {
+		background: #16dba3;
+}
+
+
+.with-border-red {
+	background: rgba(233, 14, 61, 0.1);
+	color: #b70b3d;
+	border: 2px solid #b70b3d;
+}:focus {
+		background: #b70b3d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section{
+  width: 400px;
+  height: 200px;
+  border: 2px solid gray;
+  margin: 0 auto;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  margin: 4px;
+  border: 1px solid gray;
+}
+
+.caja1{
+  background-color: blue;
+  flex:1 false 0px;
+}
+
+.caja2{
+  background-color: green;
+  flex:1 false 0px;
+}
+
+.caja3{
+  background-color: mediumvioletred;
+  flex:1 false 0px;
+}*/
